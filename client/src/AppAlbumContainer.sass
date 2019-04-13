@@ -1,0 +1,43 @@
+@mixin responsive-1400-width
+  @media (max-width: 1400px)
+    @content
+
+@mixin responsive-950-width
+  @media (max-width: 950px)
+    @content
+
+@mixin responsive-800-width
+  @media (max-width: 800px)
+    @content
+
+@mixin responsive-650-width
+  @media (max-width: 650px)
+    @content
+
+@mixin responsive-400-width
+  @media (max-width: 400px)
+    @content
+  
+.albumContainer 
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+  justify-content: center
+  align-items: center
+
+  @include responsive-1400-width
+    grid-template-columns: repeat(3, 1fr)
+
+  @include responsive-950-width
+    grid-template-columns: repeat(2, 1fr)
+
+  @include responsive-650-width
+    grid-template-columns: 1fr
+
+header
+  @include responsive-800-width
+    height: 30vh
+  @include responsive-400-width
+    height: 40vh
+
+  .submitFormButton
+    margin-top: 20px

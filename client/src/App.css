@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.centered {
+  margin-top: 50px;
+}
+
+.signIn {
+  margin: 0;
+  padding: 20px;
+  font-size: 40px;
+  border: none;
+  background: #a1e98f;
+  border-radius: 20px;
+}
+
+.signIn:hover {
+  cursor: pointer;
+  background: #5cce3f;
+  transition: 0.7s all;
+}
+
+header {
+  background-color: #11c04e;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  height: 20vh;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header input {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+header label {
+  font-size: 18px;
+}
+
+header label p {
+  margin-bottom: 5px;
+}
+
+.submitFormButton {
+  border: none;
+  background-color: rgb(59, 110, 250);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.submitFormButton:hover {
+  background-color: rgb(28, 88, 252);
+  transition: all 0.8s;
+}
+
+header button:hover {
+  cursor: pointer;
+}
+
+.typeAlbumName {
+  font-weight: 600;
+}
+
+.sortButton {
+  border: none;
+  background-color: rgb(255, 180, 40);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.sortButton:hover {
+  background-color: rgb(252, 169, 16);
+  transition: all 0.8s;
+}

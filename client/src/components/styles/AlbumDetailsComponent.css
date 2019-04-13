@@ -1,0 +1,16 @@
+.tracksList {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.tracksList a {
+  color: #0099c4;
+}
+
+.track_duration {
+  font-weight: bold;
+}
+
+.totalDuration {
+  text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+.clickForDetails {
+  color: #0099c4;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.clickForDetails:hover {
+  cursor: pointer;
+}
